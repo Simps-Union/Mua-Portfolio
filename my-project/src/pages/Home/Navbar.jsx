@@ -3,6 +3,7 @@ import { useState, useEffect } from "react"
 
 const Navbar = () => {
   const [navActive, setNavActive] = useState(false)
+  const [navbar, setNavbar] = useState(false)
   const toggleNav = () => {
     setNavActive(!navActive)
   }
@@ -29,16 +30,26 @@ const Navbar = () => {
       closedMenu()
     }
   }, [])
+ 
+  const changeNavColor = () =>{
+    if(window.scrollY >= 80){
+        setNavbar(true)
+    }else{
+        setNavbar(false)
+    }
+    // console.log(window.scrollY)
+  }
+  window.addEventListener("scroll", changeNavColor)
 
   return (
-    <nav className="navbar">
+    <nav className={navbar? "navbar active": "navbar"}>
       <a className="title" href="/">
         HOME
       </a>
       <div className="menu">
         <ul className="menuItems">
           <li>
-            <a href="#about">ABOUT</a>
+            <a href="#skills">SKILLS</a>
           </li>
           <li>
             <a href="#portfolio">PORTFOLIO</a>
