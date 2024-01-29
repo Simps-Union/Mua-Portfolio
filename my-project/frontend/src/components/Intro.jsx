@@ -1,4 +1,4 @@
-import personal_image from "../../images/about.png"
+import personal_image from "../media/about.png"
 
 export const Intro = () =>{
     return (

@@ -1,4 +1,4 @@
-import mireille from "../../images/me.png"
+import mireille from "../media/me.png"
 
 const AboutMe = () => {
   return (
