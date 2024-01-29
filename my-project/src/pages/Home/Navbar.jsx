@@ -1,4 +1,6 @@
 import { useState, useEffect } from "react"
+import resume from "../../assets/resume.pdf"
+
 // import { Link } from "react-scroll"
 
 const Navbar = () => {
@@ -14,6 +16,8 @@ const Navbar = () => {
 
   useEffect(() => {
     const handleResize = () => {
+      console.log(window.innerWidth)
+
       if (window.innerWidth <= 500) {
         closedMenu()
       }
@@ -23,26 +27,26 @@ const Navbar = () => {
     return () => {
       window.removeEventListener("resize", handleResize)
     }
-  }, [])
+  }, [window.innerWidth])
 
   useEffect(() => {
     if (window.innerWidth <= 1200) {
       closedMenu()
     }
   }, [])
- 
-  const changeNavColor = () =>{
-    if(window.scrollY >= 80){
-        setNavbar(true)
-    }else{
-        setNavbar(false)
+
+  const changeNavColor = () => {
+    if (window.scrollY >= 80) {
+      setNavbar(true)
+    } else {
+      setNavbar(false)
     }
     // console.log(window.scrollY)
   }
   window.addEventListener("scroll", changeNavColor)
-
+  console.log(navActive)
   return (
-    <nav className={navbar? "navbar active": "navbar"}>
+    <nav className={navbar ? "navbar active" : "navbar"}>
       <a className="title" href="/">
         HOME
       </a>
@@ -56,6 +60,9 @@ const Navbar = () => {
           </li>
           <li>
             <a href="#contact">CONTACT</a>
+          </li>
+          <li>
+            <a target="_blank" rel="noopener" href={resume}>RESUME</a>
           </li>
         </ul>
       </div>

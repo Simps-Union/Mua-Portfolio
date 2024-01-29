@@ -5,6 +5,7 @@ import Navbar from "./pages/Home/Navbar"
 import Skills from "./pages/Home/Skills"
 import AboutMe from "./pages/Home/AboutMe"
 import MyPortfolio from "./pages/Home/Myportfolio"
+import Footer from "./pages/Home/Footer"
 
 function App() {
   return (
@@ -27,6 +28,8 @@ function App() {
       <AboutMe/>
       <Skills/>
       <MyPortfolio/>
+      <Footer/>
+
     </div>
     
     </>
