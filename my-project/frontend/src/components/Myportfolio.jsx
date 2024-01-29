@@ -1,6 +1,6 @@
-import kenziecart from "../../images/kenziecart.png"
-import snippets from "../../images/snippets.png"
-import newsOutlet from "../../images/newsoutlet.png"
+import kenziecart from "../media/kenziecart.png"
+import snippets from "../media//snippets.png"
+import newsOutlet from "../media/newsoutlet.png"
 
 const MyPortfolio = () => {
   return (

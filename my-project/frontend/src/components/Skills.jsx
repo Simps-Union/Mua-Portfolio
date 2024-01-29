@@ -1,7 +1,7 @@
-import html from "../../images/html.png"
-import css from "../../images/css.png"
-import js from "../../images/JS.png"
-import react from "../../images/react.png"
+import html from "../media/html.png"
+import css from "../media/css.png"
+import js from "../media/JS.png"
+import react from "../media/react.png"
 
 const Skills = () => {
   return (
