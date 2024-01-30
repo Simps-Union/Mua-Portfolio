@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import "./App.css"
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
 import { Intro } from "./pages/Home/Intro"
@@ -29,7 +28,6 @@ function App() {
       <AboutMe/>
       <Skills/>
       <MyPortfolio/>
-      <Footer/>
 
     </div>
     
@@ -38,5 +36,3 @@ function App() {
 }
 
 export default App
-=======
->>>>>>> 52e60610aa0737090ec9c594af7457cb3e335fbc

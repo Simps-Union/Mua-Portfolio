@@ -1,3 +1,4 @@
+import "./App.css"
 import { useContext, useEffect } from 'react';
 import { Routes, Route } from 'react-router-dom';
 // import Home from './pages/Home';
@@ -15,6 +16,8 @@ import Navbar from "./components/Navbar"
 import Skills from "./components/Skills"
 import AboutMe from "./components/AboutMe"
 import MyPortfolio from "./components/Myportfolio"
+import Footer from "./components/Footer.jsx"
+
 
 export default function App() {
   // const { setCurrentUser } = useContext(UserContext);
@@ -25,14 +28,11 @@ export default function App() {
   // return <>
   //   <SiteHeadingAndNav />
   //   <main>
-  //     <Routes>
-  //       <Route path='/' element={<Home />} />
-  //       <Route path='/login' element={<LoginPage />} />
-  //       <Route path='/sign-up' element={<SignUpPage />} />
-  //       <Route path='/users' element={<UsersPage />} />
-  //       <Route path='/users/:id' element={<UserPage />} />
-  //       <Route path='*' element={<NotFoundPage />} />
-  //     </Routes>
+      // <Routes>
+      //   <Route path='/' element={<Home />} />
+      //   <Route path='/login' element={<LoginPage />} />
+      //   <Route path='*' element={<NotFoundPage />} />
+      // </Routes>
   //   </main>
   // </>;
   return <>
@@ -42,6 +42,7 @@ export default function App() {
       <AboutMe/>
       <Skills/>
       <MyPortfolio/>
+      <Footer/>
     </main>
   </>
 }

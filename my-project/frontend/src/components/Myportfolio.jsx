@@ -1,5 +1,5 @@
 import kenziecart from "../media/kenziecart.png"
-import snippets from "../media//snippets.png"
+import snippets from "../media/snippets.png"
 import newsOutlet from "../media/newsoutlet.png"
 
 const MyPortfolio = () => {
