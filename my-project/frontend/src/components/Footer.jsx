@@ -1,5 +1,7 @@
 import linkedIn from "../media/linkedinIcon.png"
 import github from "../media/githubIcon.png"
+import email from "../media/emailIcon.png"
+
 
 const Footer = () => {
   return (
@@ -13,6 +15,10 @@ const Footer = () => {
           <a href="https://github.com/">
             <img className="logos" src={github} alt="Github icon" />
           </a>
+          <a className="" href="mailto:mireillemua1@gmail.com">
+                <img className="logos" src={email} alt="" />
+              </a>
+          <div className="ending">MireilleMua©2024</div>
         </div>
       </div>
     </section>

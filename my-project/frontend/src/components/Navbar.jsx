@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react"
-import resume from "../media/resume.pdf"
 
 // import { Link } from "react-scroll"
 
@@ -61,9 +60,9 @@ const Navbar = () => {
           <li>
             <a href="#contact">CONTACT</a>
           </li>
-          <li>
+          {/* <li>
             <a target="_blank" rel="noopener" href={resume}>RESUME</a>
-          </li>
+          </li> */}
         </ul>
       </div>
     </nav>

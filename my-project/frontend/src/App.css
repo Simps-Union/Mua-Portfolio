@@ -1,32 +1,31 @@
 #root {
   box-sizing: border-box;
-  /* max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center; */
 }
-/* * {
-  margin: 0;
-  font-family: "Roboto", sans-serif;
-  -webkit-font-smoothing: "Roboto", sans-serif;
-  -moz-osx-font-smoothing: "Roboto", sans-serif;
-  font-style: normal;
-} */
-/* *{
-  background-color: rgb(20, 22, 51)
-} */
+
+@keyframes transitionIn{
+  from{
+    opacity: 0;
+    transform: rotateX(-10deg);
+  }
+
+  to{
+    opacity: 3;
+    transform: rotateX(1);
+  }
+}
 h1 {
   font-size: 56px;
   font-weight: 700;
   line-height: 67px;
 }
 .personal_section {
+  animation: 1000ms;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   padding: 70px 80px 70px;
   align-items: center;
   gap: 32px;
-  background-color: rgb(20, 22, 51);
+  background-color: #867070;
 
   /* background-color: rgb(4, 3, 39); */
   /* background-color: #c7f7f8; */
@@ -42,7 +41,7 @@ h1 {
   flex-direction: column;
   align-items: flex-start;
   gap: 21.333px;
-  color: white;
+  color: black;
 }
 
 .personal_image > img {
@@ -51,7 +50,8 @@ h1 {
   border-radius: 30px;
 }
 
-.contact_btn {
+.resume_btn {
+  background-color:#867070;
   border-radius: 10px;
   font-size: 30px;
   font-weight: 600;
@@ -59,8 +59,8 @@ h1 {
   text-decoration: none;
   color: black;
 }
-.contact_btn:hover {
-  background-color: rgb(40, 44, 102);
+.resume_btn:hover {
+  background-color: white
 }
 .personalInfoTitle {
   font-size: 74.667px;
@@ -71,21 +71,19 @@ h1 {
 
 .infoTitle {
   text-align: right;
+  font-size:30px ;
+  font-weight: 500;
 }
 
-.personal_info_description {
+/* .personal_info_description {
   line-height: 36px;
   font-weight: 400;
   font-size: 24px;
-}
+} */
 
 /* navbar begins */
 .navbar {
-  /* top: 0;
-  left: 0; */
-  background-color: rgb(20, 22, 51);
-
-  /* background-color:rgb(40, 44, 102) ; */
+  background-color: #867070;
   overflow: hidden;
   display: flex;
   margin: 0;
@@ -93,11 +91,10 @@ h1 {
   justify-content: space-between;
   align-items: center;
   padding-bottom: 10px;
-  /* width: 100px; */
-  /* z-index: 100000; */
+ 
 }
 .navbar.active {
-  background: rgb(40, 44, 102);
+  background: rgb(175, 140, 140);
   position: fixed;
   z-index: 100;
   width: 100%;
@@ -110,7 +107,7 @@ h1 {
   font-size: 30px;
   font-weight: 600;
   text-decoration: none;
-  color: white;
+  color: black;
   padding-left: 100px;
 }
 
@@ -126,7 +123,7 @@ h1 {
 }
 .menuItems a {
   font-size: 25px;
-  color: white;
+  color: black;
   text-decoration: none;
 }
 
@@ -140,13 +137,14 @@ h1 {
 
 /* SKILLS SECTION */
 
-.skills-section {
+.skills_section {
   display: flex;
-  padding: 149.33px 85.33px;
+  padding: 80px 85px;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  gap: 106.667px;
+  /* gap: 106.667px; */
+  background-color: #E4D0D0;
 }
 
 .skills_section_container {
@@ -155,6 +153,7 @@ h1 {
   align-items: flex-start;
   gap: 42.6px;
   grid-template-columns: repeat(4, 1fr);
+
 }
 
 .skill_card {
@@ -194,6 +193,7 @@ h1 {
   align-items: center;
   gap: 114.6px;
   grid-template-columns: repeat(2, 1fr);
+  background-color: #D5B4B4;
 }
 
 .aboutSectionImage > img {
@@ -209,7 +209,7 @@ h1 {
   justify-content: center;
   align-items: flex-start;
   gap: 106.667px;
-  background-color: rgb(95, 95, 121);
+  background-color: #F5EBEB;
 }
 .projects {
   display: grid;
@@ -233,11 +233,11 @@ h1 {
 /* footer section */
 
 .footer_section {
-  background-color: rgb(46, 48, 65);
+  background-color: #867070;
   display: flex;
   justify-content: center;
   gap: 50%;
-  padding: 100px;
+  padding-top: 50px;
 }
 .icons a {
   color: rgb(20, 22, 55);
@@ -248,12 +248,12 @@ h1 {
 } */
 
 .logos {
-  width: 20px;
-  padding-left: 10px;
+  width: 40px;
+  padding-left: 30px;
 }
-.icons a:hover {
-  color: rgb(236, 105, 105);
-}
-/* .footer-section{
+
+.ending{
+  text-align: center;
   padding: 50px;
-} */
+  color: black;
+}
