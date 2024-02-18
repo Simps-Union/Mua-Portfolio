@@ -2,13 +2,13 @@
   box-sizing: border-box;
 }
 
-@keyframes transitionIn{
-  from{
+@keyframes transitionIn {
+  from {
     opacity: 0;
     transform: rotateX(-10deg);
   }
 
-  to{
+  to {
     opacity: 3;
     transform: rotateX(1);
   }
@@ -51,7 +51,7 @@ h1 {
 }
 
 .resume_btn {
-  background-color:#867070;
+  background-color: #867070;
   border-radius: 10px;
   font-size: 30px;
   font-weight: 600;
@@ -60,7 +60,7 @@ h1 {
   color: black;
 }
 .resume_btn:hover {
-  background-color: white
+  background-color: white;
 }
 .personalInfoTitle {
   font-size: 74.667px;
@@ -71,7 +71,7 @@ h1 {
 
 .infoTitle {
   text-align: right;
-  font-size:30px ;
+  font-size: 30px;
   font-weight: 500;
 }
 
@@ -91,7 +91,6 @@ h1 {
   justify-content: space-between;
   align-items: center;
   padding-bottom: 10px;
- 
 }
 .navbar.active {
   background: rgb(175, 140, 140);
@@ -144,7 +143,7 @@ h1 {
   justify-content: center;
   align-items: flex-start;
   /* gap: 106.667px; */
-  background-color: #E4D0D0;
+  background-color: #e4d0d0;
 }
 
 .skills_section_container {
@@ -153,7 +152,6 @@ h1 {
   align-items: flex-start;
   gap: 42.6px;
   grid-template-columns: repeat(4, 1fr);
-
 }
 
 .skill_card {
@@ -193,7 +191,7 @@ h1 {
   align-items: center;
   gap: 114.6px;
   grid-template-columns: repeat(2, 1fr);
-  background-color: #D5B4B4;
+  background-color: #d5b4b4;
 }
 
 .aboutSectionImage > img {
@@ -209,7 +207,7 @@ h1 {
   justify-content: center;
   align-items: flex-start;
   gap: 106.667px;
-  background-color: #F5EBEB;
+  background-color: #f5ebeb;
 }
 .projects {
   display: grid;
@@ -228,6 +226,10 @@ h1 {
 .portfolio_pieces {
   width: 100%;
   height: 100%;
+  border-radius: 15px;
+}
+.portfolio_pieces:hover {
+  color: aqua;
 }
 
 /* footer section */
@@ -252,7 +254,7 @@ h1 {
   padding-left: 30px;
 }
 
-.ending{
+.ending {
   text-align: center;
   padding: 50px;
   color: black;

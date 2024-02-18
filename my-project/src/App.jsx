@@ -25,7 +25,7 @@ function App() {
       <div>
       <Navbar/>
       <Intro/>
-      <AboutMe/>
+      <AboutMe/>  
       <Skills/>
       <MyPortfolio/>
 

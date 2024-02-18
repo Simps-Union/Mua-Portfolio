@@ -11,11 +11,14 @@ const MyPortfolio = () => {
         </div>
         <div className="projects">
           <div className="project_card">
-            <img
-              className="portfolio_pieces"
-              src={kenziecart}
-              alt="project 1"
-            />
+            <a target="_blank" rel="noopener" href="http://localhost:3000/">
+              <img
+                className="portfolio_pieces"
+                src={kenziecart}
+                alt="project 1"
+              />
+            </a>
+
             <h3 className="project_name">Kenzie Cart</h3>
             <p>
               This is an ecomerce website for both US customers and European
@@ -25,31 +28,38 @@ const MyPortfolio = () => {
               depending <br />
               on their location and what is most convenient for them.
             </p>
-
-            <a  target="_blank" rel="noopener" href="http://localhost:3000/">Learn More Here</a>
           </div>
           <div className="project_card">
-            <img className="portfolio_pieces" src={snippets} alt="project 2" />
+            <a target="_blank" rel="noopener" href="http://localhost:5177/">
+              <img
+                className="portfolio_pieces"
+                src={snippets}
+                alt="project 2"
+              />
+            </a>
+
             <h3 className="project_name">Snippets</h3>
             <p>
               Snippets is a the Kenzie Academy version of twitter. Where
               students can communicate with each other
               <br />
-              with the available aption to sign in as a existing user or to
-              register as a new user also giving
+              with the available option to sign in as a existing user or to
+              register as a now user also giving
               <br />
               the new users the option to pick a avatar during their
               registration process. depending <br />
             </p>
-            <a  target="_blank" rel="noopener" href="http://localhost:5177/">Learn More Here</a>
           </div>
 
           <div className="project_card">
-            <img
-              className="portfolio_pieces"
-              src={newsOutlet}
-              alt="project 1"
-            />
+            <a target="_blank" rel="noopener" href="http://localhost:5176/">
+              <img
+                className="portfolio_pieces"
+                src={newsOutlet}
+                alt="project 1"
+              />
+            </a>
+
             <h3 className="project_name">News Outlet</h3>
             <p>
               News Outlet is a news site which provides the user with local,
@@ -67,7 +77,6 @@ const MyPortfolio = () => {
               either log in as an existing user or create an account as a new
               user.
             </p>
-            <a  target="_blank" rel="noopener" href="http://localhost:5176/">Learn More Here</a>
           </div>
         </div>
       </div>
