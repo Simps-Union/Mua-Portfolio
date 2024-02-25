@@ -16,7 +16,7 @@ const AboutMe = () => {
             So I spend most of my time working on projects.
              If I'm not in front of my computer, I'm either in the
              kitchen concocting something <br />and learning new recipes,
-            being an assistant mother or crocheting my life away
+            being an assistant mother or crocheting my life away.
           </p>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum exercitationem eaque incidunt necessitatibus dolorem minima, 
             modi fugiat repellendus, deserunt id illo? Tempora similique laboriosam molestiae non dolorum eaque eius pariatur.</p>
