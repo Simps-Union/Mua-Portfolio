@@ -2,17 +2,25 @@
   box-sizing: border-box;
 }
 
-@keyframes transitionIn {
+@keyframes slideInLeft {
   from {
-    opacity: 0;
-    transform: rotateX(-10deg);
+    transform: translateX(-300px);
   }
 
   to {
-    opacity: 3;
-    transform: rotateX(1);
+    transform: translateX(0);
   }
 }
+
+/* @keyframes  {
+  from {
+    transform: translateX(-10deg);
+  }
+
+  to {
+    transform: translateX(1);
+  }
+} */
 h1 {
   font-size: 56px;
   font-weight: 700;
