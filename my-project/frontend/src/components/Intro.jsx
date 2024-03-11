@@ -4,8 +4,8 @@ import resume from "../media/resume.pdf"
 
 export const Intro = () => {
   return (
-    <section id="personal_info" className="personal_section">
-      <div className="personal_content">
+    <section id="personal_info" className="slideInLeft">
+      <div id="personal_content" className="slideInLeft">
         <div className="personal_info_content">
           <p className="infoTitle">Hello, I'm Mireille</p>
           <h1 className="personalInfoTitle">
@@ -22,7 +22,7 @@ export const Intro = () => {
           </a>
         </button>
       </div>
-      <div className="personal_image">
+      <div id="personal_image" className="slideInRight">
         <img className="personal_img" src={personal_image} alt="" />
       </div>
     </section>

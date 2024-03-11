@@ -3,23 +3,41 @@ import mireille from "../media/me.png"
 const AboutMe = () => {
   return (
     <section className="about_Me">
-      <div className="aboutSectionImage">
+      {/* <div className="skills_container">
+        <h1 className="heading">My Expertise</h1>
+      </div> */}
+      <div id="aboutSectionImage" className="slideInLeft">
         <img src={mireille} alt="me" />
       </div>
       <div className="about_me-content">
-        <div className="aboutMeItems">
-          <p className="about_title"></p>
-          <h1 className="about_me_title">About Me</h1>
+        <div className="slideInRight">
+          {/* <h1 className="about_me_title">About Me</h1> */}
+          <div className="text-slide">
+            <div>About Me</div>
+            <div className="text-wrap">
+              <div className="text">
+                <span className="spanOne">Developer</span>
+                <span>Problem Solver</span>
+                <span>Collaborative</span>
+                <span>Detail-oriented</span>
+                <span>Adaptable</span>
+              </div>
+            </div>
+          </div>
+
           <p className="aboutMeDescription">
-            I fancy the idea of building things from scratch
-            <br />
-            So I spend most of my time working on projects.
-             If I'm not in front of my computer, I'm either in the
-             kitchen concocting something <br />and learning new recipes,
-            being an assistant mother or crocheting my life away.
+            I am a passionate full stack web developer on a mission to build
+            seamless digital <br /> experiences for users. I specialize in
+            translating ideas into clean, efficient code. <br />
+            From sleek front-end designs to robust back-end functionality, I
+            thrive on creating <br />
+            websites that not only look good but also work effortlessly.
           </p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum exercitationem eaque incidunt necessitatibus dolorem minima, 
-            modi fugiat repellendus, deserunt id illo? Tempora similique laboriosam molestiae non dolorum eaque eius pariatur.</p>
+          <p className="aboutMeDescription">
+            When I am not in front of my computer, I am usually in the <br />{" "}
+            kitchen concocting something and learning new recipes, <br />
+            being an assistant mother, shopping or crocheting my life away.
+          </p>
         </div>
       </div>
     </section>
