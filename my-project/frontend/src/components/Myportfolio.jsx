@@ -36,7 +36,12 @@ const MyPortfolio = () => {
               </p>
 
               <div className="popup_text">
-                <a target="_blank" rel="noopener" className="github" href="https://github.com/mireille272/Kenzie-Cart">
+                <a
+                  target="_blank"
+                  rel="noopener"
+                  className="github"
+                  href="https://github.com/mireille272/Kenzie-Cart"
+                >
                   Github
                 </a>
                 <ul className="list">
@@ -71,7 +76,13 @@ const MyPortfolio = () => {
                   </div>
                 </ul>
                 <button className="learnMore-button">
-                  <a target="_blank" rel="noopener" href="https://kenzie-cart-clien-t-updates.onrender.com">Learn More</a>
+                  <a
+                    target="_blank"
+                    rel="noopener"
+                    href="https://kenzie-cart-clien-t-updates.onrender.com"
+                  >
+                    Learn More
+                  </a>
                 </button>
               </div>
             </div>
@@ -93,7 +104,12 @@ const MyPortfolio = () => {
               </p>
 
               <div className="popup_text">
-                <a target="_blank" rel="noopener" className="github" href="https://github.com/mireille272/Gradebook">
+                <a
+                  target="_blank"
+                  rel="noopener"
+                  className="github"
+                  href="https://github.com/mireille272/Gradebook"
+                >
                   Github
                 </a>
                 <ul className="list">
@@ -128,13 +144,11 @@ const MyPortfolio = () => {
 
           <div id="container" className="slideInLeft">
             <div className="project_card">
-              <a target="_blank" rel="noopener" href="http://localhost:5177/">
                 <img
                   className="portfolio_pieces"
                   src={snippets}
                   alt="project 3"
                 />
-              </a>
 
               <h3 className="project_name">Snippets</h3>
               <p>
@@ -149,7 +163,12 @@ const MyPortfolio = () => {
               </p>
 
               <div className="popup_text">
-                <a className="github" href="https://github.com/mireille272/Snippets">
+                <a
+                  target="_blank"
+                  rel="noopener"
+                  className="github"
+                  href="https://github.com/mireille272/Snippets"
+                >
                   Github
                 </a>
                 <ul className="list">
@@ -184,7 +203,13 @@ const MyPortfolio = () => {
                   </div>
                 </ul>
                 <button className="learnMore-button">
-                  <a href="https://www.loom.com/share/839b9487ecd94b8f9bc2f5f69e6fde37">Learn More</a>
+                  <a
+                    target="_blank"
+                    rel="noopener"
+                    href="https://www.loom.com/share/839b9487ecd94b8f9bc2f5f69e6fde37"
+                  >
+                    Learn More
+                  </a>
                 </button>
               </div>
             </div>
@@ -192,13 +217,11 @@ const MyPortfolio = () => {
 
           <div id="container" className="slideInRight">
             <div className="project_card">
-              <a target="_blank" rel="noopener" href="http://localhost:5176/">
-                <img
-                  className="portfolio_pieces"
-                  src={newsOutlet}
-                  alt="project 1"
-                />
-              </a>
+              <img
+                className="portfolio_pieces"
+                src={newsOutlet}
+                alt="project 1"
+              />
 
               <h3 className="project_name">News Outlet</h3>
               <p>
@@ -218,7 +241,12 @@ const MyPortfolio = () => {
                 user.
               </p>
               <div className="popup_text">
-                <a className="github" href="https://github.com/Reynolds1121/capstone-newsoutlet">
+                <a
+                  target="_blank"
+                  rel="noopener"
+                  className="github"
+                  href="https://github.com/Reynolds1121/capstone-newsoutlet"
+                >
                   Github
                 </a>
                 <ul className="list">
@@ -253,7 +281,13 @@ const MyPortfolio = () => {
                   </div>
                 </ul>
                 <button className="learnMore-button">
-                  <a href="https://www.loom.com/share/6cb1b042fdd24547bc9446b3e4d69fc4">Learn More</a>
+                  <a
+                    target="_blank"
+                    rel="noopener"
+                    href="https://www.loom.com/share/6cb1b042fdd24547bc9446b3e4d69fc4"
+                  >
+                    Learn More
+                  </a>
                 </button>
               </div>
             </div>
