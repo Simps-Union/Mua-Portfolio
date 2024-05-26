@@ -204,9 +204,7 @@ const MyPortfolio = () => {
                 </ul>
                 <button className="learnMore-button">
                   <a
-                    target="_blank"
-                    rel="noopener"
-                    href="https://www.loom.com/share/839b9487ecd94b8f9bc2f5f69e6fde37"
+                    href="/Snippets"
                   >
                     Learn More
                   </a>
@@ -282,9 +280,7 @@ const MyPortfolio = () => {
                 </ul>
                 <button className="learnMore-button">
                   <a
-                    target="_blank"
-                    rel="noopener"
-                    href="https://www.loom.com/share/6cb1b042fdd24547bc9446b3e4d69fc4"
+                    href="/News Outlet"
                   >
                     Learn More
                   </a>

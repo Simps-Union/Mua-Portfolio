@@ -1,6 +1,12 @@
-#root {
+*, body {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+ 
 }
+/* html{
+  height: 100vh;
+} */
 
 @keyframes slideInLeft {
   from {
@@ -342,6 +348,7 @@ span:nth-child(5) {
   justify-content: center;
   gap: 50%;
   padding-top: 50px;
+  /* margin-top: 100px; */
 }
 .icons a {
   color: rgb(20, 22, 55);
@@ -426,3 +433,21 @@ span:nth-child(5) {
   width: 30px;
   margin: 5px;
 }
+
+.carousel-control-next-icon {
+  background-color:black;
+  outline: black;
+}
+
+.carousel-control-prev-icon {
+  background-color:black;
+}
+/* .carousel {
+  width:100% !important; 
+  overflow: hidden !important; 
+  right:0 !important; 
+}
+.carousel-caption {
+  right:0 !important;
+  left:0!important;
+  } */
