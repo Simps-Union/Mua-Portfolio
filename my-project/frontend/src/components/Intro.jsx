@@ -1,5 +1,5 @@
 import personal_image from "../media//about.png"
-import resume from "../media/resume.pdf"
+import Resume from "../media/Resume .pdf"
 
 
 export const Intro = () => {
@@ -17,10 +17,11 @@ export const Intro = () => {
           
         </div>
         <button className="resume_btn">
-          <a className="resume_btn" target="_blank" rel="noopener" href={resume}>
+          <a className="resume_btn" target="_blank" rel="noopener" href={Resume}>
             RESUME
           </a>
         </button>
+        {/* <p>It Take a lot of hard work to create something simple. Steve Jobs </p> */}
       </div>
       <div id="personal_image" className="slideInRight">
         <img className="personal_img" src={personal_image} alt="" />
