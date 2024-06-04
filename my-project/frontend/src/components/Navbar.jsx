@@ -52,7 +52,7 @@ const Navbar = () => {
       <div className="menu">
         <ul className="menuItems">
           <li>
-            <a href="#skills">SKILLS</a>
+            <a href="#recent projects">SKILLS</a>
           </li>
           <li>
             <a href="#portfolio">PORTFOLIO</a>
