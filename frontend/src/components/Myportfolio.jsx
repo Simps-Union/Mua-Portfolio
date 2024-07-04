@@ -11,7 +11,7 @@ import node from "../media/nodejs-2.svg"
 
 const MyPortfolio = () => {
   return (
-    <section className="portfolio_section">
+    <section id = "Recent" className="portfolio_section">
       <div className="portfolio_container">
         <div className="portfolio_content">
           <h1 className="portfolio_heading">Recent Projects</h1>
@@ -25,7 +25,7 @@ const MyPortfolio = () => {
                 src={kenziecart}
                 alt="project 1"
               />
-              <h3 className="project_description">Kenzie Cart</h3>
+              <h3 className="project_name">Kenzie Cart</h3>
               <p className="project_description">
                 This is an ecomerce website for both US customers and European
                 customers.
@@ -99,8 +99,8 @@ const MyPortfolio = () => {
               <p>
                 Kenzie High Gradebook is a gradebook for a JavaScript class
                 <br />
-                The book allows the teacher to add students to class, add
-                assignment, adjust grades, etc
+                The book allows the teacher to add students to the class, add 
+                <br />assignment, and adjust grades, etc
               </p>
 
               <div className="popup_text">

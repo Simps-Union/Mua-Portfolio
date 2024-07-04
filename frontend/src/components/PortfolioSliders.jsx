@@ -1,4 +1,6 @@
 import { Carousel } from "react-bootstrap"
+// import Card from "react-bootstrap"
+import Card from "react-bootstrap/Card"
 
 function ProjectCarousels({
   img1,
@@ -22,6 +24,25 @@ function ProjectCarousels({
           //   height: "100%",
         }}
       >
+        {/* <Card style={{ width: "18rem" }}>
+          <Carousel.Item
+            style={{
+              textAlign: "center",
+            }}
+          >
+            <img
+              src={img1}
+              alt=""
+              style={{
+                width: "100%",
+                maxWidth: "50%",
+                maxHeight: "50%",
+                height: "50%",
+              }}
+            />
+          </Carousel.Item>
+        </Card> */}
+
         <Carousel.Item
           style={{
             textAlign: "center",
@@ -38,6 +59,7 @@ function ProjectCarousels({
             }}
           />
         </Carousel.Item>
+
         <Carousel.Item
           style={{
             textAlign: "center",

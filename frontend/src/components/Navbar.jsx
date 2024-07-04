@@ -52,13 +52,13 @@ const Navbar = () => {
       <div className="menu">
         <ul className="menuItems">
           <li>
-            <a href="#recent projects">SKILLS</a>
+            <a href="#Recent">SKILLS</a>
           </li>
           <li>
-            <a href="#portfolio">PORTFOLIO</a>
+            <a href="#Portfolio">PORTFOLIO</a>
           </li>
           <li>
-            <a href="#contact">CONTACT</a>
+            <a href="#Contact">CONTACT</a>
           </li>
           {/* <li>
             <a target="_blank" rel="noopener" href={resume}>RESUME</a>
