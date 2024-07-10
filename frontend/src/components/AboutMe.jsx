@@ -2,7 +2,7 @@ import mireille from "../media/me.png"
 
 const AboutMe = () => {
   return (
-    <section className="about_Me">
+    <section id="skills" className="about_Me">
       {/* <div className="skills_container">
         <h1 className="heading">My Expertise</h1>
       </div> */}

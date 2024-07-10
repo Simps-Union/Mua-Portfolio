@@ -3,11 +3,9 @@ import { useContext, useEffect } from "react"
 import { Routes, Route } from "react-router-dom"
 import { Intro } from "./components/Intro"
 import Navbar from "./components/Navbar"
-import Skills from "./components/Skills"
 import AboutMe from "./components/AboutMe"
 import MyPortfolio from "./components/Myportfolio"
-import Footer from "./components/Footer.jsx"
-import { Example } from "./components/Example"
+import Contact from "./components/ContactMe.jsx"
 import ProjectCarousels from "./components/PortfolioSliders"
 import snippets from "./media/snippets.png"
 import snippetComment from "./media/snippetComment.png"
@@ -62,7 +60,7 @@ export default function App() {
             }
           ></Route>
         </Routes>
-        {/* <Footer /> */}
+        <Contact />
       </main>
     </>
   )

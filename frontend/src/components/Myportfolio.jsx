@@ -11,7 +11,7 @@ import node from "../media/nodejs-2.svg"
 
 const MyPortfolio = () => {
   return (
-    <section id = "Recent" className="portfolio_section">
+    <section id = "portfolio" className="portfolio_section">
       <div className="portfolio_container">
         <div className="portfolio_content">
           <h1 className="portfolio_heading">Recent Projects</h1>
