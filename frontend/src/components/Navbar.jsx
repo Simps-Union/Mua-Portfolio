@@ -52,7 +52,7 @@ const Navbar = () => {
       <div className="menu">
         <ul className="menuItems">
           <li>
-            <a href="#recent projects">SKILLS</a>
+            <a href="#skills">ABOUT</a>
           </li>
           <li>
             <a href="#portfolio">PORTFOLIO</a>
@@ -68,32 +68,6 @@ const Navbar = () => {
     </nav>
   )
 
-  //   return (
-  //     <nav className={`navbar ${navActive ? "active" : ""}`}>
-  //       <div>HOME</div>
-  //       <a
-  //         className={`nav_hamburger ${navActive ? "active" : ""}`}
-  //         onClick={toggleNav}
-  //       >
-  //         <span className="nav_hamburger_line"></span>
-  //         <span className="nav_hamburger_line"></span>
-  //         <span className="nav_hamburger_line"></span>
-  //       </a>
-  //       <div className={`navbarItems ${navActive ? "active" : ""}`}>
-  //         <ul className="menuItens">
-  //         <li>
-  //             <a href="#about">ABOUT</a>
-  //           </li>
-  //           <li>
-  //             <a href="#portfolio">PORTFOLIO</a>
-  //           </li>
-  //           <li>
-  //             <a href="#contact">CONTACT</a>
-  //           </li>
-  //         </ul>
-  //       </div>
-  //     </nav>
-  //   )
 }
 
 export default Navbar
